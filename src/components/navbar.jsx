@@ -20,7 +20,7 @@ export function Navbar() {
       <div className="container nav-container">
         <a href="#home" className="logo" onClick={closeMenu}>
           <span className="logo-text">Shreyas</span>
-          <span className="logo-badge">Kamble</span>
+          <span className="logo-dot">.</span>
         </a>
 
         {/* Desktop Nav */}

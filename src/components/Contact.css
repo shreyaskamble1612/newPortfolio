@@ -183,10 +183,58 @@ a.method-value:hover {
   color: #a5a1b8;
 }
 
-.submit-btn {
-  align-self: flex-start;
+.whatsapp-icon-bg {
+  background-color: #ecfdf5 !important;
+  color: #10b981 !important;
+}
+
+.whatsapp-chat-link {
+  color: #059669 !important;
+  font-weight: 700;
+}
+
+.whatsapp-chat-link:hover {
+  color: #047857 !important;
+  text-decoration: underline;
+}
+
+.whatsapp-social-icon:hover {
+  background-color: #25D366 !important;
+  color: #ffffff !important;
+  border-color: #25D366 !important;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.35) !important;
+}
+
+.form-buttons-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
   margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+.submit-btn {
   padding: 14px 28px;
+}
+
+.btn-whatsapp-direct {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #25D366;
+  color: #ffffff !important;
+  padding: 14px 24px;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
+  transition: var(--transition);
+}
+
+.btn-whatsapp-direct:hover {
+  background-color: #1eb857;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
 }
 
 /* Success Alert */
