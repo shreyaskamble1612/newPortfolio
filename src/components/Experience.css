@@ -1,0 +1,191 @@
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience-card {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 38px 34px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.experience-card:hover {
+  border-color: var(--primary-border);
+  box-shadow: var(--shadow-md);
+}
+
+.experience-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.role-company {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.company-badge-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-md);
+  background: var(--primary-light);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.experience-role {
+  font-size: 1.45rem;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+
+.company-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  flex-wrap: wrap;
+}
+
+.experience-company {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.meta-dot {
+  color: var(--text-muted);
+}
+
+.experience-project {
+  color: var(--text-body);
+}
+
+.experience-period-badge {
+  background: var(--primary-subtle);
+  border: 1px solid var(--primary-border);
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+
+/* Impact stats row */
+.impact-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  background: var(--primary-subtle);
+  border: 1px solid var(--primary-border);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+
+.impact-stat-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.impact-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.impact-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+/* Bullets */
+.experience-bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 26px;
+}
+
+.experience-bullets li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.98rem;
+  color: var(--text-body);
+  line-height: 1.6;
+}
+
+.bullet-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  margin-top: 8px;
+  flex-shrink: 0;
+}
+
+/* Tech pills */
+.experience-tags {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border-light);
+  padding-top: 20px;
+}
+
+.tags-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.tags-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.exp-tech-pill {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+  background: #ffffff;
+  border: 1px solid var(--primary-border);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+
+@media (max-width: 768px) {
+  .experience-card {
+    padding: 24px 20px;
+  }
+
+  .impact-stats-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .role-company {
+    align-items: flex-start;
+  }
+
+  .experience-role {
+    font-size: 1.25rem;
+  }
+}
