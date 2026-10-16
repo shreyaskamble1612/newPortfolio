@@ -96,18 +96,38 @@ button {
 .section {
   padding: 90px 0;
   position: relative;
+  z-index: 1;
 }
 
 .section-alt {
-  background-color: var(--bg-subtle);
+  background-color: rgba(252, 250, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-top: 1px solid var(--border-light);
   border-bottom: 1px solid var(--border-light);
+}
+
+/* ===================================================
+   3D SCROLL EFFECTS & GPU-ACCELERATED PERSPECTIVE
+=================================================== */
+.scroll-3d-reveal {
+  opacity: 0;
+  transform: perspective(1200px) rotateX(10deg) translateY(42px) scale(0.96) translateZ(-20px);
+  transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1), transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+  transform-style: preserve-3d;
+}
+
+.scroll-3d-reveal.is-3d-revealed {
+  opacity: 1;
+  transform: perspective(1200px) rotateX(0deg) translateY(0px) scale(1) translateZ(0px);
 }
 
 .section-header {
   text-align: center;
   max-width: 620px;
   margin: 0 auto 50px auto;
+  transform-style: preserve-3d;
 }
 
 .section-badge {
@@ -198,4 +218,34 @@ button {
   .section-desc {
     font-size: 0.95rem;
   }
+}
+
+/* 3D Interactive Layered Depth on Tilt */
+.tilt-card-container {
+  transform-style: preserve-3d;
+}
+
+.tilt-card-container:hover .project-card,
+.tilt-card-container:hover .highlight-card,
+.tilt-card-container:hover .experience-card {
+  transform-style: preserve-3d;
+}
+
+.tilt-card-container:hover .project-badge,
+.tilt-card-container:hover .highlight-icon,
+.tilt-card-container:hover .company-badge-icon {
+  transform: translateZ(36px);
+  transition: transform 0.25s ease-out;
+}
+
+.tilt-card-container:hover .project-card-title,
+.tilt-card-container:hover .highlight-title,
+.tilt-card-container:hover .experience-role {
+  transform: translateZ(24px);
+  transition: transform 0.25s ease-out;
+}
+
+.tilt-card-container:hover .project-tags-wrap {
+  transform: translateZ(18px);
+  transition: transform 0.25s ease-out;
 }
