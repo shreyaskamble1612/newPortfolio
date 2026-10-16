@@ -37,7 +37,7 @@ export function Navbar() {
 
         <div className="nav-actions">
           <a
-            href="mailto:shreyaskamble6671@gmail.com"
+            href="#contact"
             className="btn btn-primary btn-sm nav-cta"
           >
             Hire Me
@@ -67,7 +67,7 @@ export function Navbar() {
           <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
           <li className="mobile-cta-li">
             <a
-              href="mailto:shreyaskamble6671@gmail.com"
+              href="#contact"
               className="btn btn-primary btn-sm"
               onClick={closeMenu}
             >

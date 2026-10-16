@@ -74,10 +74,10 @@ export function Skills() {
     <section id="skills" className="section section-alt">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Technical Arsenal</span>
-          <h2 className="section-title">Skills & Technologies</h2>
+          <span className="section-badge">Full-Stack Capabilities</span>
+          <h2 className="section-title">Technologies & Services I Deliver</h2>
           <p className="section-desc">
-            A comprehensive overview of my programming languages, frameworks, cloud services, and software engineering practices.
+            Production-grade frameworks, cloud infrastructure, and software practices used to build and scale your products.
           </p>
         </div>
 

@@ -4,43 +4,39 @@ import "./About.css";
 export function About() {
   const highlights = [
     {
-      title: "Strong CS Fundamentals",
-      description: "Data Structures & Algorithms, OOP, System Design, Operating Systems, DBMS, and Computer Networks.",
+      title: "Rapid Time-to-Market",
+      description: "Ship functional MVPs and product features fast, helping you test ideas and onboard users without technical debt.",
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <polyline points="16 18 22 12 16 6"></polyline>
-          <polyline points="8 6 2 12 8 18"></polyline>
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
         </svg>
       ),
     },
     {
-      title: "Competitive Problem Solver",
-      description: "500+ problems solved on LeetCode with strong algorithmic optimization skills. 2-Star on CodeChef (Rating: 1552).",
+      title: "High-Converting Responsive UX",
+      description: "Mobile-first, lightning-fast interfaces with modern aesthetics, tailored to keep users engaged and boost conversion rates.",
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="12" cy="8" r="7"></circle>
-          <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+          <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+          <line x1="12" y1="18" x2="12.01" y2="18"></line>
         </svg>
       ),
     },
     {
-      title: "Full-Stack & Microservices",
-      description: "Hands-on engineering across Spring Boot, Next.js, Node.js, Express, WebRTC, Socket.IO, PostgreSQL, and AWS.",
-      icon: (
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
-          <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
-          <line x1="6" y1="6" x2="6.01" y2="6"></line>
-          <line x1="6" y1="18" x2="6.01" y2="18"></line>
-        </svg>
-      ),
-    },
-    {
-      title: "Industry Best Practices",
-      description: "Secure coding, unit & integration testing, HMAC webhooks, session auth, Agile/Scrum, and documentation.",
+      title: "Production Security & Scale",
+      description: "Battle-tested backend engineering with Spring Boot, Next.js, Stripe payments, RBAC auth, and scalable AWS cloud infrastructure.",
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Direct & Transparent Collaboration",
+      description: "Clear milestone-based delivery, constant communication via WhatsApp/Slack, and thorough technical documentation.",
+      icon: (
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
         </svg>
       ),
     },
@@ -50,10 +46,10 @@ export function About() {
     <section id="about" className="section section-alt">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">About Me</span>
-          <h2 className="section-title">Engineering Reliable & Scalable Systems</h2>
+          <span className="section-badge">Client Value & Philosophy</span>
+          <h2 className="section-title">Why Work With Me? Building Products That Grow.</h2>
           <p className="section-desc">
-            B.Tech Information Technology student at Walchand College of Engineering, Sangli.
+            Full-stack technical ownership, rapid milestone-driven delivery, and dependable results for founders and businesses.
           </p>
         </div>
 
@@ -61,39 +57,46 @@ export function About() {
           <div className="about-bio-card">
             <h3 className="about-bio-title">Hello! I'm Shreyas Kamble</h3>
             <p className="about-text">
-              I am an Information Technology undergraduate at <strong>Walchand College of Engineering, Sangli</strong> (Aug 2022 – Jun 2026, CGPA: 7.6).
-              I have practical experience building enterprise-grade applications using <strong>Java, Spring Boot, Next.js, Node.js, PostgreSQL, and AWS</strong>.
+              I am a <strong>Full-Stack Freelance Engineer</strong> who partners with founders, agencies, and companies
+              to turn concepts into high-performing, scalable digital products.
             </p>
             <p className="about-text">
-              From architecting multi-tier RBAC marketplaces and telemedicine platforms with WebRTC video calling, to building microservices and AI-powered RAG chatbots,
-              I focus on clean code, system performance, and robust security practices.
+              Backed by computer science training from <strong>Walchand College of Engineering</strong> and commercial experience
+              building multi-role marketplaces (Polokaz), real-time healthcare platforms (HealthConnect), and enterprise microservices,
+              I ensure your application is fast, secure, and ready to scale.
             </p>
 
             <div className="about-info-list">
               <div className="info-item">
-                <span className="info-label">Education:</span>
-                <span className="info-value">B.Tech IT, WCE Sangli</span>
+                <span className="info-label">Core Services:</span>
+                <span className="info-value">Full-Stack Apps, MVPs, Microservices</span>
               </div>
               <div className="info-item">
-                <span className="info-label">Batch:</span>
-                <span className="info-value">2022 – 2026 (CGPA 7.6)</span>
-              </div>
-              <div className="info-item">
-                <span className="info-label">Location:</span>
-                <span className="info-value">Sangli, Maharashtra, India</span>
+                <span className="info-label">Engagement:</span>
+                <span className="info-value">Fixed Price & Milestone Contracts</span>
               </div>
               <div className="info-item">
                 <span className="info-label">Availability:</span>
-                <span className="info-value highlight-avail">Open for SDE / Internships</span>
+                <span className="info-value highlight-avail">Open for New Projects</span>
+              </div>
+              <div className="info-item">
+                <span className="info-label">Communication:</span>
+                <span className="info-value">WhatsApp, Email, Slack, Video Calls</span>
               </div>
             </div>
 
             <div className="about-cta">
-              <a href="#experience" className="btn btn-primary btn-sm">
-                View Experience
+              <a href="#contact" className="btn btn-primary btn-sm">
+                Discuss Your Project
               </a>
-              <a href="#contact" className="btn btn-secondary btn-sm" style={{ marginLeft: "12px" }}>
-                Contact Me
+              <a
+                href="https://wa.me/918767206376?text=Hi%20Shreyas,%20I'd%20like%20to%20discuss%20a%20project%20with%20you!"
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-secondary btn-sm"
+                style={{ marginLeft: "12px" }}
+              >
+                Chat on WhatsApp
               </a>
             </div>
           </div>

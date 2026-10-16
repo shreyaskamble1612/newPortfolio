@@ -36,10 +36,10 @@ export function Experience() {
     <section id="experience" className="section">
       <div className="container">
         <div className="section-header">
-          <span className="section-badge">Work Experience</span>
-          <h2 className="section-title">Professional Experience</h2>
+          <span className="section-badge">Client Track Record</span>
+          <h2 className="section-title">Client Work & Proven Business Impact</h2>
           <p className="section-desc">
-            Commercial full-stack engineering, production marketplace architecture, and client impact.
+            Production marketplaces and platforms engineered for maximum conversion, low latency, and dependable ROI.
           </p>
         </div>
 
